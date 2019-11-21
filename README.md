@@ -32,7 +32,7 @@
   - ViewWidget: To view and edit table conveniently, also can show result which from query of database.
   - WebPage: To load and show web page in a window.
 
-# Example-project
+# Example-project floder
 
 Practical application of a basic knowledge.
 
