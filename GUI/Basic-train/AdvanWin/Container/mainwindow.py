@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'mainwindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.1
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1200, 740)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.quit_btn = QtWidgets.QPushButton(self.centralwidget)
+        self.quit_btn.setGeometry(QtCore.QRect(1100, 660, 91, 34))
+        font = QtGui.QFont()
+        font.setFamily("Palatino")
+        font.setPointSize(14)
+        self.quit_btn.setFont(font)
+        self.quit_btn.setObjectName("quit_btn")
+        self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget.setGeometry(QtCore.QRect(30, 210, 291, 211))
+        self.tabWidget.setObjectName("tabWidget")
+        self.quit_btn_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.quit_btn_2.setGeometry(QtCore.QRect(350, 210, 91, 34))
+        font = QtGui.QFont()
+        font.setFamily("Palatino")
+        font.setPointSize(14)
+        self.quit_btn_2.setFont(font)
+        self.quit_btn_2.setObjectName("quit_btn_2")
+        self.listWidget = QtWidgets.QListWidget(self.centralwidget)
+        self.listWidget.setGeometry(QtCore.QRect(30, 10, 256, 192))
+        self.listWidget.setObjectName("listWidget")
+        self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
+        self.stackedWidget.setGeometry(QtCore.QRect(310, 20, 281, 51))
+        self.stackedWidget.setObjectName("stackedWidget")
+        self.quit_btn_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.quit_btn_3.setGeometry(QtCore.QRect(350, 270, 91, 34))
+        font = QtGui.QFont()
+        font.setFamily("Palatino")
+        font.setPointSize(14)
+        self.quit_btn_3.setFont(font)
+        self.quit_btn_3.setObjectName("quit_btn_3")
+        self.verticalScrollBar = QtWidgets.QScrollBar(self.centralwidget)
+        self.verticalScrollBar.setGeometry(QtCore.QRect(890, 60, 16, 571))
+        self.verticalScrollBar.setOrientation(QtCore.Qt.Vertical)
+        self.verticalScrollBar.setObjectName("verticalScrollBar")
+        self.verticalScrollBar_2 = QtWidgets.QScrollBar(self.centralwidget)
+        self.verticalScrollBar_2.setGeometry(QtCore.QRect(930, 60, 16, 491))
+        self.verticalScrollBar_2.setOrientation(QtCore.Qt.Vertical)
+        self.verticalScrollBar_2.setObjectName("verticalScrollBar_2")
+        self.verticalScrollBar_3 = QtWidgets.QScrollBar(self.centralwidget)
+        self.verticalScrollBar_3.setGeometry(QtCore.QRect(980, 60, 16, 491))
+        self.verticalScrollBar_3.setOrientation(QtCore.Qt.Vertical)
+        self.verticalScrollBar_3.setObjectName("verticalScrollBar_3")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(620, 90, 181, 81))
+        font = QtGui.QFont()
+        font.setPointSize(28)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1200, 28))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+        self.dockWidget = QtWidgets.QDockWidget(MainWindow)
+        self.dockWidget.setObjectName("dockWidget")
+        self.dockWidgetContents_4 = QtWidgets.QWidget()
+        self.dockWidgetContents_4.setObjectName("dockWidgetContents_4")
+        self.dockWidget.setWidget(self.dockWidgetContents_4)
+        MainWindow.addDockWidget(QtCore.Qt.DockWidgetArea(8), self.dockWidget)
+
+        self.retranslateUi(MainWindow)
+        self.tabWidget.setCurrentIndex(-1)
+        self.stackedWidget.setCurrentIndex(-1)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.quit_btn.setText(_translate("MainWindow", "退出"))
+        self.quit_btn_2.setText(_translate("MainWindow", "显示"))
+        self.quit_btn_3.setText(_translate("MainWindow", "新建"))
+        self.label.setText(_translate("MainWindow", "color"))
