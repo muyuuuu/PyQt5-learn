@@ -1,6 +1,17 @@
 # Introduction
 
-- The Basic-train floder: For basic window control exercises
+- The Basic-train floder
+  - AdvanWin
+    - Container: QStackedWidget, QTabWidget, QDockWidget, verticalScrollBar.
+    - ViewWidget: tableview, listview, tableWidget, combox, treeWidget.
+    - WebPage: webEngineView(It is recommended to call the system browser to open the webpage instead of the software.)
+  - BasicWin
+  - DataBase
+  - MatplotWidget
+  - Pyecharts
+  - PyQtGraph
+  - QSS
+  - QtPandas
 - Example-project: A integrated application example
 
 # Basic-train floder
@@ -42,7 +53,7 @@ Practical application of a basic knowledge.
 
 # Attention
 
-Some `.py` file based on `.ui` file, the software qtdesigner can open and edit `.ui` file and generate `.py` file correspondingly.
+Some `.py` file based on `.ui` file, the software qtdesigner can open and edit `.ui` file and generate the same name `.py` file correspondingly.
 
 So, don't change `.ui` file unless you know what you are doing.
 
