@@ -12,7 +12,6 @@
   - PyQtGraph
   - QSS
   - QtPandas
-- Example-project: A integrated application example
 
 # Basic-train floder
 
@@ -43,14 +42,6 @@
   - ViewWidget: To view and edit table conveniently, also can show result which from query of database.
   - WebPage: To load and show web page in a window.
 
-# Example-project floder
-
-Practical application of a basic knowledge.
-
-`weather.py` is the same as `weather1.py`, except that `weather1.py` adds split window technology, which automatically drags the sub-window size.
-
-`python weather1.py` can run it.
-
 # Attention
 
 Some `.py` file based on `.ui` file, the software qtdesigner can open and edit `.ui` file and generate the same name `.py` file correspondingly.
@@ -66,8 +57,6 @@ About basic and advanced control(tabwidget and button, etc.): https://muyuuuu.gi
 Matplotlib, qtpandas, database, etc: https://muyuuuu.github.io/2019/10/11/pyqt-pit/
 
 Layout and beautify window: https://muyuuuu.github.io/2019/10/19/pyqt-layout/
-
-![](2.gif)
 
 A beautiful and applicable interface: https://github.com/muyuuuu/A-Beautiful-PyQt5-Interface
 
